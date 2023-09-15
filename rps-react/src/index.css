@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  overflow: hidden;
+  background-color: rgb(94, 81, 170);
+  color: white;
+}
+
+.App{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 250px;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgb(80, 68, 150), rgb(55, 38, 152));
+  width: 750px;
+  height: 70px;
+  position: relative;
+}
+button{
+  width: 125px;
+  height: 40px;
+  margin: 10px 20px 10px 20px;
+  background-color: inherit;
+  border: 1px white solid;
+  color: white;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover{
+  color: rgb(80, 68, 150);
+  background-color: white;
+}
+p{
+  width: 750px;
+  position: relative;
+  text-align: center;
+  font-size: 5rem;
+  background-image: linear-gradient(to right, rgb(122, 101, 255), rgb(34, 0, 255));
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 2px rgb(67, 39, 253), 2px 2px 2px rgb(94, 69, 255),-2px -2px 2px rgb(118, 68, 255), 0 0 10px rgba(136, 0, 255, 0.5); /* Beyaz ve mor gölgeler ekleyin */
+}
+.game-board{
+  text-align: center;
+  background-color: rgb(67, 34, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 750px;
+  height: 320px;
+  font-size: 1.5rem;
+}
